@@ -19,7 +19,8 @@ var template= document.getElementById('index').innerHTML;
 					sub: 5,
 					email: 10,
 					precio:14,
-					color: "white"
+					color: "white",
+					siete: "PHP5 Suport"
 				},
 				{
 					titulo: "Bussines",
@@ -28,7 +29,9 @@ var template= document.getElementById('index').innerHTML;
 					sub: 10,
 					email: 25,
 					precio: 29,
-					color: "black"
+					color: "black",
+					siete: "PHP5 Suport",
+					ocho: "Piesk Control Panel"
 				},
 				{
 					titulo: "Platinum",
@@ -37,7 +40,10 @@ var template= document.getElementById('index').innerHTML;
 					sub: "Unimited",
 					email: "Unimited",
 					precio: 59,
-					color: "white"
+					color: "white",
+					siete: "PHP5 Suport",
+					ocho: "Piesk Control Panel",
+					nueve: "Spam Asasing"
 				}
 			]
 		}

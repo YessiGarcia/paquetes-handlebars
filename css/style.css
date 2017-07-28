@@ -48,6 +48,7 @@ button{
 	height: 30px;
 	width: 80px;
 	color: white;
+	border:none;
 }
 .inferior ul{
 	padding: 0;
@@ -71,5 +72,5 @@ button{
 	border:none;
 }
 .black li:nth-child(even){
-	background: gray;
+	background: #616161;
 }
