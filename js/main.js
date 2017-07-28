@@ -1,5 +1,46 @@
-/*var template = document.getElementById("index").innerHTML;
-    console.log(template);
-    var compilar = Handlebars.compile(template);
-    var compiladorHTML = compilar ({name: "<em><p>Pari</p></em>"});
-    document.getElementById("action").innerHTML += compiladorHTML;*/
+var template= document.getElementById('index').innerHTML;
+		var compilar= Handlebars.compile(template);
+
+		var paquetes = {
+			paquete: [
+				{
+					titulo: "Básic",
+					disk: "100MG",
+					monthly: "200MB",
+					sub: 2,
+					email: 5,
+					precio: 9,
+					color: "white"
+				},
+				{
+					titulo: "Corporate",
+					disk: "300MG",
+					monthly: "400MB",
+					sub: 5,
+					email: 10,
+					precio:14,
+					color: "white"
+				},
+				{
+					titulo: "Bussines",
+					disk: "1GB",
+					monthly: "1GB",
+					sub: 10,
+					email: 25,
+					precio: 29,
+					color: "black"
+				},
+				{
+					titulo: "Platinum",
+					disk: "5GB",
+					monthly: "Unimited",
+					sub: "Unimited",
+					email: "Unimited",
+					precio: 59,
+					color: "white"
+				}
+			]
+		}
+
+		var compiladoHTML = compilar(paquetes);
+		document.getElementById("action").innerHTML += compiladoHTML;

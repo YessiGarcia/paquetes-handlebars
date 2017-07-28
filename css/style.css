@@ -1,4 +1,7 @@
-.black{
+.row .col{
+	padding: 0;
+}
+.superior{
 	background: black;
 	color: white;
 	height: 130px;
@@ -61,4 +64,12 @@ button{
 }
 .inferior li:nth-child(even){
 	background: #eeeeee;
+}
+.black{
+	background: black;
+	color: white;
+	border:none;
+}
+.black li:nth-child(even){
+	background: gray;
 }
